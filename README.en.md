@@ -8,4 +8,8 @@ Prepared by Chu, Chen-Yu ([ORCID](https://orcid.org/0009-0003-9738-6914)); accou
 
 364 stable units; 8031 literal Unicode codepoints including reference strings; 570 active uncertainty declarations; 50 active gaiji registry references. These are not source Chinese-character counts or error rates.
 
-Use source images to verify quotations. See REVISION-CHANGES.json for accepted changes. [Published initial version](https://doi.org/10.5281/zenodo.23972212) · [Repository](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867). This v0.2.0 candidate awaits publication/readback; its DOI is not yet assigned. Planned [v0.2.0 release](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0).
+Use source images to verify quotations. See REVISION-CHANGES.json for accepted changes.
+
+[Revised version DOI](https://doi.org/10.5281/zenodo.23975561) · [Initial version DOI](https://doi.org/10.5281/zenodo.23972212) · [All versions](https://doi.org/10.5281/zenodo.23972211) · [GitHub v0.2.0](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0) · [Medical history community](https://zenodo.org/communities/late-qing-medical-history/).
+
+DOI and citation links were added to this main branch after publication. SHA256SUMS verifies the fixed release, whose preparation-time documents remain unchanged; current publication status is given here and on the DOI landing page.

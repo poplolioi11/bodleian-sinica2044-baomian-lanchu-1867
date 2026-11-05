@@ -10,4 +10,6 @@
 
 先讀book.txt；疑讀見uncertainties.json；原圖對應及gaiji見source-pages.json、source-regions.json。REVISION-CHANGES.json列本版採用的逐處改動。引用請核原件。
 
-[已公開第一版DOI](https://doi.org/10.5281/zenodo.23972212) · [GitHub](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867)。本候選v0.2.0尚待正式發布及讀回；預定[v0.2.0版本入口](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0)。新版DOI由正式封存後另行確認。
+[修訂版 DOI](https://doi.org/10.5281/zenodo.23975561) · [初錄版 DOI](https://doi.org/10.5281/zenodo.23972212) · [所有版本](https://doi.org/10.5281/zenodo.23972211) · [GitHub v0.2.0](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0) · [醫學史社群](https://zenodo.org/communities/late-qing-medical-history/)。
+
+本主分支在固定版發布後補入 DOI 與引用連結。SHA256SUMS 用於驗證固定 release 內容；封存包保留製備時的文件，現行發布狀態以本頁與 DOI 頁為準。
