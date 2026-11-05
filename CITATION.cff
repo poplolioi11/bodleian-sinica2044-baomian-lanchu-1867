@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: Cite the fixed version and verify quotations against the source images.
+type: dataset
+title: '保免攔除（1867；Bodleian Sinica 2044） / Bao mian lan chu [Preventing and averting
+  illness]: Transcription dataset'
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.1.0
+date-released: '2026-11-05'
+abstract: Bao mian lan chu [Preventing and averting illness] is an 1867 Chinese medical
+  and everyday-health booklet by Frederick Porter Smith. Bodleian Libraries, Sinica
+  2044, is catalogued as published in Hankow (漢皋); its title page names Baoshan jushe
+  (寶善居舍) as the block holder. It discusses housing, diet, mental and physical activity,
+  cleanliness, internal and external medicine, eye conditions, women’s health and
+  infant care, linking health discourse with Christian vocabulary. It supports historical
+  work on medical translation, missionary publishing and everyday life in late-Qing
+  China. Based on 21 Bodleian digital captures, this dataset provides an AI initial
+  transcription of 36 designated physical faces, including titles, prefaces, main
+  text, appendices, running margins and one originally blank framed body. TXT, JSON
+  and TEI XML retain readings, uncertainties and source-image mappings. Full human
+  double collation and expert review have not been performed; uncertain readings and
+  clipped marginal material remain marked.
+keywords:
+- 保免攔除
+- Bao mian lan chu
+- Frederick Porter Smith
+- 晚清醫學史
+- late-Qing medical history
+- 漢皋
+- Hankow
+- 日常保健史
+- history of everyday health
+- 傳教士出版
+- missionary publishing
+- 醫學翻譯
+- medical translation
+- 基督教與醫學
+- Christianity and medicine
+- 保嬰史
+- history of infant care
+- Bodleian Libraries
+- Sinica 2044
+url: https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867
+repository-artifact: https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.1.0

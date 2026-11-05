@@ -1,0 +1,5 @@
+# Source and edition
+
+Source object: https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json Official fixed catalogue: https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202044.xml Formats: TXT, JSON, TEI XML. Scope:21 captures;36 physical faces (2 title,2 preface,31 textual body/appendix,1 blank framed body);4 binding faces excluded. Historical text and faithful mechanical transcription acquire no new exclusive restriction. Copyrightable original documentation/arrangement: CC BY4.0. Excluded Bodleian source images separately carry CC BY-NC4.0. English bracketed title is an editorial translation.
+
+Catalogue author: Smith, Frederick Porter. Historical year/place describe the source edition, not dataset publication. Catalogue romanization bao mian lan chu retained, with display initial capitalization. Sinica1614 is a related same-edition catalogue lead; its digital witness has not been verified or counted as another digitized book.
