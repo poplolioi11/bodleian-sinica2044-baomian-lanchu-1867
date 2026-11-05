@@ -1,8 +1,8 @@
 {
-  "status": "prepared-not-published",
+  "status": "v0.2.0-prepared-for-release; v0.1.0-published",
   "type": "dataset",
   "title": "保免攔除（1867；Bodleian Sinica 2044） / Bao mian lan chu [Preventing and averting illness]: Transcription dataset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publication_date_proposal": "2026-11-05",
   "creators": [
     {
@@ -11,9 +11,9 @@
       "orcid": "https://orcid.org/0009-0003-9738-6914"
     }
   ],
-  "description": "《保免攔除》（Bao mian lan chu；1867）是 Frederick Porter Smith 的晚清漢語醫學與日常保健小冊，牛津 Bodleian Libraries 藏本 Sinica 2044 著錄刊地為漢皋（Hankow），題頁署寶善居舍藏板。書中討論居室、飲食、精神與身體活動、潔身，以及內科、外科、眼科、婦人科與保嬰，並將健康論述與基督教語彙相連，可供醫學翻譯、傳教士出版與晚清生活史研究。本資料集依該藏本21幅數位影像，提供36個指定物理面的AI初錄，包含題頁、序、正文、附錄、版心及一面原框正文空白面，以TXT、JSON及TEI XML保存字串、疑讀與原圖對應。尚未經人類全文雙校或專家審定，疑讀與殘缺邊字已另行標記。\n\nBao mian lan chu [Preventing and averting illness] is an 1867 Chinese medical and everyday-health booklet by Frederick Porter Smith. Bodleian Libraries, Sinica 2044, is catalogued as published in Hankow (漢皋); its title page names Baoshan jushe (寶善居舍) as the block holder. It discusses housing, diet, mental and physical activity, cleanliness, internal and external medicine, eye conditions, women’s health and infant care, linking health discourse with Christian vocabulary. It supports historical work on medical translation, missionary publishing and everyday life in late-Qing China. Based on 21 Bodleian digital captures, this dataset provides an AI initial transcription of 36 designated physical faces, including titles, prefaces, main text, appendices, running margins and one originally blank framed body. TXT, JSON and TEI XML retain readings, uncertainties and source-image mappings. Full human double collation and expert review have not been performed; uncertain readings and clipped marginal material remain marked.",
+  "description": "《保免攔除》（Bao mian lan chu；1867）是 Frederick Porter Smith 的晚清漢語醫學與日常保健小冊，牛津 Bodleian Libraries 藏本 Sinica 2044 著錄刊地為漢皋（Hankow），題頁署寶善居舍藏板。書中討論居室、飲食、精神與身體活動、潔身，以及內科、外科、眼科、婦人科與保嬰，並將健康論述與基督教語彙相連，可供醫學翻譯、傳教士出版與晚清生活史研究。本資料集依21幅數位影像，以TXT、JSON及TEI XML提供36個指定物理面的轉錄、疑讀及原圖對應。本版在AI初錄後完成全36面獨立AI讀圖、全量比較與非盲原圖質詢修訂；未經人類全文雙校或專家審定，未解讀字及殘缺邊字仍保留標記。\n\nBao mian lan chu [Preventing and averting illness] is an 1867 Chinese medical and everyday-health booklet by Frederick Porter Smith. Bodleian Libraries, Sinica 2044, is catalogued as published in Hankow (漢皋); its title page names Baoshan jushe (寶善居舍) as block holder. It discusses housing, diet, mental and physical activity, cleanliness, internal and external medicine, eye conditions, women’s health and infant care, linking health discourse with Christian vocabulary. It supports historical work on medical translation, missionary publishing and everyday life in late-Qing China. Based on 21 digital captures, TXT, JSON and TEI XML provide the transcription of 36 designated physical faces, uncertainties and source-image mappings. Following the AI initial transcription, this version applies a separate AI source-only reading of all 36 faces, full comparison and nonblind source-image adjudication. Full human double collation and expert review have not been performed; unresolved readings and clipped marginal material remain marked.",
   "notes": "Source object: https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json Official fixed catalogue: https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202044.xml Formats: TXT, JSON, TEI XML. Scope:21 captures;36 physical faces (2 title,2 preface,31 textual body/appendix,1 blank framed body);4 binding faces excluded. Historical text and faithful mechanical transcription acquire no new exclusive restriction. Copyrightable original documentation/arrangement: CC BY4.0. Excluded Bodleian source images separately carry CC BY-NC4.0. English bracketed title is an editorial translation.",
-  "methods": "AI-assisted source-image initial transcription with fixed image hashes and physical-face IDs. Body text, small notes, raised words, running margins, source annotations and visible marks are distinguished where observed. Stable gaiji markers preserve unresolved glyphs and partial regions. Context was reused and includes bibliographic/previous-draft exposure; no independent blind collation has been applied. Full human double collation, expert review, peer review and accuracy measurement have not been performed. The actual execution-model identifier, reasoning setting and token counters are unknown, not zero. Format/schema/hash checks assess engineering consistency and do not prove reading accuracy. Source images, crops, dedicated programs, prompts and full private working records are not distributed; no complete image-to-text reproduction method is provided. Historical-document research only, with no modern clinical validation or biological research claim.",
+  "methods": "A separately sealed source-only AI reader processed all 36 designated physical faces before literal comparison. A nonblind AI adjudicator queried all 504 token-aware comparison records against the same source images and checked agreed/high-risk details on every face; 64 specified literal operations are applied. Point/slant marks, exact variant encoding, clipped margins and other unresolved material remain explicit. Original 364 unit IDs/order and v0.1.0 are preserved without Unicode normalization or global substitutions. Independent reading, nonblind adjudication and limited controller spotchecks are distinct roles. Full human double collation, expert review, peer review and accuracy measurement have not been performed. Actual native-model identifiers, reasoning settings and counters are unknown, not zero. Engineering/schema/hash checks do not establish reading accuracy. Source images/crops, dedicated programs, prompts and full private working records are excluded; no complete image-to-text reproduction method is supplied. Historical-document research only; no modern clinical validation or biological research claim.",
   "keywords": [
     "保免攔除",
     "Bao mian lan chu",
@@ -63,12 +63,17 @@
     {
       "identifier": "https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867",
       "relation": "IsSupplementTo",
-      "resource_role": "planned-repository-not-yet-verified-live"
+      "resource_role": "existing-repository"
     },
     {
-      "identifier": "https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.1.0",
+      "identifier": "https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0",
       "relation": "IsIdenticalTo",
-      "resource_role": "planned-version-release-not-yet-verified-live"
+      "resource_role": "v0.2.0-release-prepared-not-yet-published"
+    },
+    {
+      "identifier": "10.5281/zenodo.23972212",
+      "relation": "IsNewVersionOf",
+      "resource_role": "published-initial-version"
     }
   ],
   "rights_layers": [
@@ -86,7 +91,7 @@
     }
   ],
   "doi": null,
-  "concept_doi": null,
+  "concept_doi": "10.5281/zenodo.23972211",
   "counts": {
     "canvases": 21,
     "target_physical_faces": 36,
@@ -96,8 +101,8 @@
     "original_frame_body_blank_faces": 1,
     "excluded_binding_faces": 4,
     "units": 364,
-    "codepoints": 8230,
-    "uncertainty_records": 153,
+    "codepoints": 8031,
+    "uncertainty_records": 570,
     "gaiji_registry_records": 59,
     "roles": {
       "other": 4,
@@ -114,6 +119,8 @@
       "source_annotation": 1,
       "imprint": 1
     },
-    "pending_target_faces": 0
+    "pending_target_faces": 0,
+    "active_gaiji_registry_records": 50,
+    "accepted_v020_literal_operations": 64
   }
 }

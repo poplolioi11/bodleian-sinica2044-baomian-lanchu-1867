@@ -1,0 +1,1671 @@
+{
+  "schema": "sinica2044-review-summary/1",
+  "base_version": "0.1.0",
+  "result_version": "0.2.0",
+  "source_review_faces": 36,
+  "compared_records": 504,
+  "literal_operations": 64,
+  "decision_states": {
+    "retain-initial-source-supported": 28,
+    "unresolved-retain-initial": 409,
+    "partially-adopt-source-supported-retain-mark-uncertainty": 15,
+    "adopt-source-supported": 40,
+    "partially-adopt-source-supported-retain-variant-mark-uncertainty": 1,
+    "adopt-source-supported-third-source-reading": 2,
+    "partially-adopt-source-supported-retain-variant-uncertainty": 1,
+    "partially-adopt-source-supported-third-source-reading": 2,
+    "partially-source-supported-retain-first-glyph-uncertainty": 1,
+    "partially-adopt-source-supported-retain-second-glyph-uncertainty": 1,
+    "partially-adopt-source-supported-preserve-unit-boundary": 1,
+    "adopt-source-supported-third-source-alignment": 1,
+    "retain-initial-source-supported-with-margin-unresolved": 1,
+    "retain-initial-primary-body-blank": 1
+  },
+  "all_target_face_ids": [
+    "f002-L",
+    "f003-R",
+    "f003-L",
+    "f004-R",
+    "f004-L",
+    "f005-R",
+    "f005-L",
+    "f006-R",
+    "f006-L",
+    "f007-R",
+    "f007-L",
+    "f008-R",
+    "f008-L",
+    "f009-R",
+    "f009-L",
+    "f010-R",
+    "f010-L",
+    "f011-R",
+    "f011-L",
+    "f012-R",
+    "f012-L",
+    "f013-R",
+    "f013-L",
+    "f014-R",
+    "f014-L",
+    "f015-R",
+    "f015-L",
+    "f016-R",
+    "f016-L",
+    "f017-R",
+    "f017-L",
+    "f018-R",
+    "f018-L",
+    "f019-R",
+    "f019-L",
+    "f020-R"
+  ],
+  "unresolved_policy": "Unresolved candidate glyphs, points, source-space encoding and clipped margins remain explicit. Review status does not mean every reading is correct.",
+  "operations": [
+    {
+      "id": "f004-L-op-001",
+      "page_id": "f004-L",
+      "unit_id": "f004-L-u002",
+      "initial_unit_start": 5,
+      "initial_unit_end": 6,
+      "page_stream_range": [
+        32,
+        33
+      ],
+      "before": "誠",
+      "after": "誡",
+      "comparison_id": "tcmp-f004-L-002",
+      "source_sha256": "3d8993b89bcece897e10b2e5577c98b0b36021f0c1b06e6428a85afa697217d9",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第二主欄「命」後字右部有戒形横斜筆，不是成，採誡；該字前點號位置未唯一核定，保留初錄頓號而不整段刪點。",
+      "result_unit_start": 5,
+      "result_unit_end": 6
+    },
+    {
+      "id": "f004-L-op-002",
+      "page_id": "f004-L",
+      "unit_id": "f004-L-u007",
+      "initial_unit_start": 1,
+      "initial_unit_end": 2,
+      "page_stream_range": [
+        139,
+        140
+      ],
+      "before": "國",
+      "after": "歐",
+      "comparison_id": "tcmp-f004-L-007",
+      "source_sha256": "3d8993b89bcece897e10b2e5577c98b0b36021f0c1b06e6428a85afa697217d9",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第七主欄「我」下字左方為匚內多口、右方為欠，輪廓與國的外囗不同，採歐；未據國籍或文意判字。",
+      "result_unit_start": 1,
+      "result_unit_end": 2
+    },
+    {
+      "id": "f005-L-op-001",
+      "page_id": "f005-L",
+      "unit_id": "f005-L-u007",
+      "initial_unit_start": 4,
+      "initial_unit_end": 5,
+      "page_stream_range": [
+        152,
+        153
+      ],
+      "before": "面",
+      "after": "而",
+      "comparison_id": "tcmp-f005-L-009",
+      "source_sha256": "e86e9295cb10f0cf16e1b726364d84680fda86af5739cf922ad4177a6306dfc6",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第七主欄「自地」後字有而的上横、外垂與內兩豎，沒有面的完整外框與內横格，採而。",
+      "result_unit_start": 4,
+      "result_unit_end": 5
+    },
+    {
+      "id": "f006-L-op-001",
+      "page_id": "f006-L",
+      "unit_id": "f006-L-u001",
+      "initial_unit_start": 5,
+      "initial_unit_end": 6,
+      "page_stream_range": [
+        5,
+        6
+      ],
+      "before": "瘟",
+      "after": "濕",
+      "comparison_id": "tcmp-f006-L-001",
+      "source_sha256": "bb5303ce449fcc04cd3c33c51d500ddf8e2de4c66f4578342cf5683f393fd5f8",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "首欄「患」上字左側有三水點、右下密集幺灬形，而非疒框內瘟，採濕；不據病名或句義換字。",
+      "result_unit_start": 5,
+      "result_unit_end": 6
+    },
+    {
+      "id": "f006-L-op-002",
+      "page_id": "f006-L",
+      "unit_id": "f006-L-u003",
+      "initial_unit_start": 25,
+      "initial_unit_end": 26,
+      "page_stream_range": [
+        75,
+        76
+      ],
+      "before": "處",
+      "after": "虞",
+      "comparison_id": "tcmp-f006-L-006",
+      "source_sha256": "bb5303ce449fcc04cd3c33c51d500ddf8e2de4c66f4578342cf5683f393fd5f8",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第三主欄下方字虍下面有吳形口與橫腳，較支持虞而非處；只替換字，不接受同hunk新增頓號。",
+      "result_unit_start": 25,
+      "result_unit_end": 26
+    },
+    {
+      "id": "f006-R-op-001",
+      "page_id": "f006-R",
+      "unit_id": "f006-R-u002",
+      "initial_unit_start": 21,
+      "initial_unit_end": 22,
+      "page_stream_range": [
+        47,
+        48
+      ],
+      "before": "居",
+      "after": "屋",
+      "comparison_id": "tcmp-f006-R-001",
+      "source_sha256": "bb5303ce449fcc04cd3c33c51d500ddf8e2de4c66f4578342cf5683f393fd5f8",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第二主欄「築」下字可見尸頭及下方至形，為屋而非居的古形組件，採屋。",
+      "result_unit_start": 21,
+      "result_unit_end": 22
+    },
+    {
+      "id": "f007-L-op-001",
+      "page_id": "f007-L",
+      "unit_id": "f007-L-u005",
+      "initial_unit_start": 8,
+      "initial_unit_end": 46,
+      "page_stream_range": [
+        105,
+        143
+      ],
+      "before": "[gaiji:g2044-b01-f007L-u005-rawcp0008]",
+      "after": "冷",
+      "comparison_id": "tcmp-f007-L-011",
+      "source_sha256": "f67e88426164e021575a417314cb7e6803e16bfbbaa42faf2e175655e3547060",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "「勿懼冷」後參照區可見冫旁與令形，與緊鄰前一冷同形，採冷；不連帶新增第二稿頓號或將即正字化卽。",
+      "result_unit_start": 8,
+      "result_unit_end": 9
+    },
+    {
+      "id": "f007-L-op-002",
+      "page_id": "f007-L",
+      "unit_id": "f007-L-u008",
+      "initial_unit_start": 23,
+      "initial_unit_end": 24,
+      "page_stream_range": [
+        232,
+        233
+      ],
+      "before": "纔",
+      "after": "纏",
+      "comparison_id": "tcmp-f007-L-016",
+      "source_sha256": "f67e88426164e021575a417314cb7e6803e16bfbbaa42faf2e175655e3547060",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "倒數第二主欄下字右部見广下里／底腳形而非毚的兔形雙層，採纏；不依冷熱文義換字。",
+      "result_unit_start": 23,
+      "result_unit_end": 24
+    },
+    {
+      "id": "f007-R-op-001",
+      "page_id": "f007-R",
+      "unit_id": "f007-R-u002",
+      "initial_unit_start": 12,
+      "initial_unit_end": 12,
+      "page_stream_range": [
+        39,
+        39
+      ],
+      "before": "",
+      "after": "一",
+      "comparison_id": "tcmp-f007-R-001",
+      "source_sha256": "f67e88426164e021575a417314cb7e6803e16bfbbaa42faf2e175655e3547060",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第二主欄「地上」與「物也」之間可見一個獨立橫畫，位置是正文內一字而非欄邊框，補一。",
+      "result_unit_start": 12,
+      "result_unit_end": 13
+    },
+    {
+      "id": "f008-L-op-001",
+      "page_id": "f008-L",
+      "unit_id": "f008-L-u001",
+      "initial_unit_start": 3,
+      "initial_unit_end": 4,
+      "page_stream_range": [
+        3,
+        4
+      ],
+      "before": "塹",
+      "after": "壅",
+      "comparison_id": "tcmp-f008-L-001",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "已另看原像素heading裁片：該字上為雍形、下土，不是塹的斬部也非窒的穴至，採壅；第二稿窒不採。",
+      "result_unit_start": 3,
+      "result_unit_end": 4
+    },
+    {
+      "id": "f008-L-op-002",
+      "page_id": "f008-L",
+      "unit_id": "f008-L-u001",
+      "initial_unit_start": 24,
+      "initial_unit_end": 25,
+      "page_stream_range": [
+        24,
+        25
+      ],
+      "before": "使",
+      "after": "便",
+      "comparison_id": "tcmp-f008-L-002",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "首欄末段總期後字亻旁右部為更，非吏形，採便。",
+      "result_unit_start": 24,
+      "result_unit_end": 25
+    },
+    {
+      "id": "f008-L-op-003",
+      "page_id": "f008-L",
+      "unit_id": "f008-L-u003",
+      "initial_unit_start": 4,
+      "initial_unit_end": 6,
+      "page_stream_range": [
+        53,
+        55
+      ],
+      "before": "清濬",
+      "after": "溝澮",
+      "comparison_id": "tcmp-f008-L-007",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第三主欄上方有時後兩字右部見冓與會形，採溝澮而非清濬；保留初錄後點號，不隨第二稿刪點。",
+      "result_unit_start": 4,
+      "result_unit_end": 6
+    },
+    {
+      "id": "f008-L-op-004",
+      "page_id": "f008-L",
+      "unit_id": "f008-L-u004",
+      "initial_unit_start": 10,
+      "initial_unit_end": 11,
+      "page_stream_range": [
+        82,
+        83
+      ],
+      "before": "粉",
+      "after": "紛",
+      "comparison_id": "tcmp-f008-L-010",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "塵前字左部見糸的幺與點腳而非米的交叉，採紛，語意不作裁定依據。",
+      "result_unit_start": 10,
+      "result_unit_end": 11
+    },
+    {
+      "id": "f008-L-op-005",
+      "page_id": "f008-L",
+      "unit_id": "f008-L-u004",
+      "initial_unit_start": 17,
+      "initial_unit_end": 18,
+      "page_stream_range": [
+        89,
+        90
+      ],
+      "before": "而",
+      "after": "面",
+      "comparison_id": "tcmp-f008-L-011",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "踏板後字有完整面字外框與內格，採面；牆／墻細部未定，僅將而改面。",
+      "result_unit_start": 17,
+      "result_unit_end": 18
+    },
+    {
+      "id": "f008-L-op-006",
+      "page_id": "f008-L",
+      "unit_id": "f008-L-u004",
+      "initial_unit_start": 22,
+      "initial_unit_end": 23,
+      "page_stream_range": [
+        94,
+        95
+      ],
+      "before": "夯",
+      "after": "勾",
+      "comparison_id": "tcmp-f008-L-012",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "土前字外為勹、內厶，不是夯的大力結構，採勾。",
+      "result_unit_start": 22,
+      "result_unit_end": 23
+    },
+    {
+      "id": "f008-R-op-001",
+      "page_id": "f008-R",
+      "unit_id": "f008-R-u002",
+      "initial_unit_start": 3,
+      "initial_unit_end": 4,
+      "page_stream_range": [
+        29,
+        30
+      ],
+      "before": "烟",
+      "after": "煙",
+      "comparison_id": "tcmp-f008-R-005",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "「筒」上字火旁右部見西覆土形，不是因，採煙。",
+      "result_unit_start": 3,
+      "result_unit_end": 4
+    },
+    {
+      "id": "f008-R-op-002",
+      "page_id": "f008-R",
+      "unit_id": "f008-R-u003",
+      "initial_unit_start": 19,
+      "initial_unit_end": 20,
+      "page_stream_range": [
+        68,
+        69
+      ],
+      "before": "烟",
+      "after": "煙",
+      "comparison_id": "tcmp-f008-R-010",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "「停留」後火旁字右部仍見西土形，採煙；不連帶採用第二稿新增頓號。",
+      "result_unit_start": 19,
+      "result_unit_end": 20
+    },
+    {
+      "id": "f008-R-op-003",
+      "page_id": "f008-R",
+      "unit_id": "f008-R-u005",
+      "initial_unit_start": 8,
+      "initial_unit_end": 9,
+      "page_stream_range": [
+        105,
+        106
+      ],
+      "before": "嗇",
+      "after": "資",
+      "comparison_id": "tcmp-f008-R-016",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "「財」前字上部為次、下部貝形，不是嗇的兩口土形，採資。",
+      "result_unit_start": 8,
+      "result_unit_end": 9
+    },
+    {
+      "id": "f008-R-op-004",
+      "page_id": "f008-R",
+      "unit_id": "f008-R-u006",
+      "initial_unit_start": 5,
+      "initial_unit_end": 45,
+      "page_stream_range": [
+        126,
+        166
+      ],
+      "before": "成罅[gaiji:g2044-b01-f008R-u006-rawcp0007]",
+      "after": "放菜蔬",
+      "comparison_id": "tcmp-f008-R-017",
+      "source_sha256": "f2805d32bf96b6131b817875191679d1318ae2aa2566c08afabce248f93ab632",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "水缸段「勿」下三字依序見方攵、艹下采、艹下疏形，讀放菜蔬；菜不是第二稿柔，亦不是初錄成罅加未定形。第三來源讀法僅依該處筆畫，不採任何一稿的語意整句。",
+      "result_unit_start": 5,
+      "result_unit_end": 8
+    },
+    {
+      "id": "f009-L-op-001",
+      "page_id": "f009-L",
+      "unit_id": "f009-L-u001",
+      "initial_unit_start": 15,
+      "initial_unit_end": 16,
+      "page_stream_range": [
+        15,
+        16
+      ],
+      "before": "分",
+      "after": "令",
+      "comparison_id": "tcmp-f009-L-002",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "首主欄仍後字上人下令部，未見八刀的分結構，採令。",
+      "result_unit_start": 15,
+      "result_unit_end": 16
+    },
+    {
+      "id": "f009-L-op-002",
+      "page_id": "f009-L",
+      "unit_id": "f009-L-u004",
+      "initial_unit_start": 9,
+      "initial_unit_end": 10,
+      "page_stream_range": [
+        80,
+        81
+      ],
+      "before": "共",
+      "after": "公",
+      "comparison_id": "tcmp-f009-L-008",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第四主欄重則後字上八下厶、不是卄下八，採公。",
+      "result_unit_start": 9,
+      "result_unit_end": 10
+    },
+    {
+      "id": "f009-L-op-003",
+      "page_id": "f009-L",
+      "unit_id": "f009-L-u004",
+      "initial_unit_start": 11,
+      "initial_unit_end": 33,
+      "page_stream_range": [
+        82,
+        104
+      ],
+      "before": "⟦g-f009L-questionverb⟧",
+      "after": "審",
+      "comparison_id": "tcmp-f009-L-009",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "同欄同與問之間可見宀、釆與田的直向結構，支持審；不是先前學／拏候選，解除當處gaiji仍保留歷史及未經人核狀態。",
+      "result_unit_start": 11,
+      "result_unit_end": 12
+    },
+    {
+      "id": "f009-R-op-001",
+      "page_id": "f009-R",
+      "unit_id": "f009-R-u003",
+      "initial_unit_start": 4,
+      "initial_unit_end": 5,
+      "page_stream_range": [
+        54,
+        55
+      ],
+      "before": "屢",
+      "after": "顧",
+      "comparison_id": "tcmp-f009-R-004",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "致後字右半頁形、左上雇形可見，採顧而非屢的尸婁；不連帶新增第二稿頓號。",
+      "result_unit_start": 4,
+      "result_unit_end": 5
+    },
+    {
+      "id": "f009-R-op-002",
+      "page_id": "f009-R",
+      "unit_id": "f009-R-u005",
+      "initial_unit_start": 4,
+      "initial_unit_end": 7,
+      "page_stream_range": [
+        105,
+        108
+      ],
+      "before": "安而屈",
+      "after": "妄祈虛",
+      "comparison_id": "tcmp-f009-R-008",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "存己後三字依次見亡女、示斤、虍虛形，讀妄祈虛；不採第二稿同hunk新加點號，不按宗教文義補字。",
+      "result_unit_start": 4,
+      "result_unit_end": 7
+    },
+    {
+      "id": "f009-R-op-003",
+      "page_id": "f009-R",
+      "unit_id": "f009-R-u005",
+      "initial_unit_start": 25,
+      "initial_unit_end": 26,
+      "page_stream_range": [
+        126,
+        127
+      ],
+      "before": "誣",
+      "after": "託",
+      "comparison_id": "tcmp-f009-R-011",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "另看第四主欄下端原像素：言旁右部為乇（撇、橫、豎鈎），未見巫的雙人構形，採託。保留初錄由託改誣的舊歷史，此輪新裁定不是倒改舊版。",
+      "result_unit_start": 25,
+      "result_unit_end": 26
+    },
+    {
+      "id": "f009-R-op-004",
+      "page_id": "f009-R",
+      "unit_id": "f009-R-u009",
+      "initial_unit_start": 20,
+      "initial_unit_end": 22,
+      "page_stream_range": [
+        220,
+        222
+      ],
+      "before": "神官",
+      "after": "紳首",
+      "comparison_id": "tcmp-f009-R-019",
+      "source_sha256": "c9611ab846e76561a424c59c7516a81e2a91f754987464c20d33da6cd9404303",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "末欄下段第一字為糸旁申而非礻旁申，第二字頂丷下目而非宀下官，採紳首；不連帶加頓號。",
+      "result_unit_start": 20,
+      "result_unit_end": 22
+    },
+    {
+      "id": "f010-L-op-001",
+      "page_id": "f010-L",
+      "unit_id": "f010-L-u002",
+      "initial_unit_start": 17,
+      "initial_unit_end": 18,
+      "page_stream_range": [
+        39,
+        40
+      ],
+      "before": "彌",
+      "after": "獼",
+      "comparison_id": "tcmp-f010-L-008",
+      "source_sha256": "e902a019b6bbacd6433876d1e1549202661ce97be2d74e09872457012f8eeb41",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "猴前字左部為犬旁的斜撇與鈎點，不是彌的弓，採獼；不連帶新增第二稿頓號。",
+      "result_unit_start": 17,
+      "result_unit_end": 18
+    },
+    {
+      "id": "f010-R-op-001",
+      "page_id": "f010-R",
+      "unit_id": "f010-R-u008",
+      "initial_unit_start": 6,
+      "initial_unit_end": 7,
+      "page_stream_range": [
+        62,
+        63
+      ],
+      "before": "分",
+      "after": "兮",
+      "comparison_id": "tcmp-f010-R-006",
+      "source_sha256": "e902a019b6bbacd6433876d1e1549202661ce97be2d74e09872457012f8eeb41",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "弗忘後字上八下丂的弯鈎可見，不是分的刀，採兮；不連帶新增第二稿點號。",
+      "result_unit_start": 6,
+      "result_unit_end": 7
+    },
+    {
+      "id": "f010-R-op-002",
+      "page_id": "f010-R",
+      "unit_id": "f010-R-u009",
+      "initial_unit_start": 18,
+      "initial_unit_end": 19,
+      "page_stream_range": [
+        88,
+        89
+      ],
+      "before": "憐",
+      "after": "憫",
+      "comparison_id": "tcmp-f010-R-009",
+      "source_sha256": "e902a019b6bbacd6433876d1e1549202661ce97be2d74e09872457012f8eeb41",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "矜後字忄旁右部門內文形可見，不是憐的粦，採憫；點號仍維持初錄未解。",
+      "result_unit_start": 18,
+      "result_unit_end": 19
+    },
+    {
+      "id": "f010-R-op-003",
+      "page_id": "f010-R",
+      "unit_id": "f010-R-u011",
+      "initial_unit_start": 9,
+      "initial_unit_end": 10,
+      "page_stream_range": [
+        113,
+        114
+      ],
+      "before": "一",
+      "after": "二",
+      "comparison_id": "tcmp-f010-R-013",
+      "source_sha256": "e902a019b6bbacd6433876d1e1549202661ce97be2d74e09872457012f8eeb41",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "第二組而二前可見兩條獨立横畫，與前組的一不同，採二；不把相近短橫誤成框線。",
+      "result_unit_start": 9,
+      "result_unit_end": 10
+    },
+    {
+      "id": "f011-L-op-001",
+      "page_id": "f011-L",
+      "unit_id": "f011-L-u001",
+      "initial_unit_start": 1,
+      "initial_unit_end": 2,
+      "page_stream_range": [
+        1,
+        2
+      ],
+      "before": "醫",
+      "after": "鑒",
+      "comparison_id": "tcmp-f011-L-001",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "首欄第二字下部為金形，非醫的酉，採鑒；不依詞義套改。",
+      "result_unit_start": 1,
+      "result_unit_end": 2
+    },
+    {
+      "id": "f011-L-op-002",
+      "page_id": "f011-L",
+      "unit_id": "f011-L-u003",
+      "initial_unit_start": 19,
+      "initial_unit_end": 39,
+      "page_stream_range": [
+        63,
+        83
+      ],
+      "before": "⟦g-f011L-animalverb⟧",
+      "after": "猶",
+      "comparison_id": "tcmp-f011-L-008",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "鳥獸後字左為犭、右上酋下寸形，與猫的田部不同，採猶，保留原gaiji歷史。",
+      "result_unit_start": 19,
+      "result_unit_end": 20
+    },
+    {
+      "id": "f011-L-op-003",
+      "page_id": "f011-L",
+      "unit_id": "f011-L-u004",
+      "initial_unit_start": 1,
+      "initial_unit_end": 15,
+      "page_stream_range": [
+        86,
+        100
+      ],
+      "before": "⟦g-f011L-molt⟧",
+      "after": "毨",
+      "comparison_id": "tcmp-f011-L-009",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "毛後字左毛右先（上短撇橫竪、下分開雙腳），採毨；不是第二稿毧的戎形或初錄候選毯雙炎，不新增同hunk點。",
+      "result_unit_start": 1,
+      "result_unit_end": 2
+    },
+    {
+      "id": "f011-L-op-004",
+      "page_id": "f011-L",
+      "unit_id": "f011-L-u006",
+      "initial_unit_start": 5,
+      "initial_unit_end": 21,
+      "page_stream_range": [
+        147,
+        163
+      ],
+      "before": "⟦g-f011L-mei-xu⟧",
+      "after": "眉",
+      "comparison_id": "tcmp-f011-L-016",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "五官後獨立字可見上方眉框及下目，未見胥的月形，採眉；不據語意更動其後無與皮，也不新增頓號。",
+      "result_unit_start": 5,
+      "result_unit_end": 6
+    },
+    {
+      "id": "f011-R-op-001",
+      "page_id": "f011-R",
+      "unit_id": "f011-R-u003",
+      "initial_unit_start": 3,
+      "initial_unit_end": 4,
+      "page_stream_range": [
+        48,
+        49
+      ],
+      "before": "怨",
+      "after": "愆",
+      "comparison_id": "tcmp-f011-R-009",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "招後字心上為衍形左右行腳與中間水點，不是怨的夗，採愆；不連帶新增點號。",
+      "result_unit_start": 3,
+      "result_unit_end": 4
+    },
+    {
+      "id": "f011-R-op-002",
+      "page_id": "f011-R",
+      "unit_id": "f011-R-u005",
+      "initial_unit_start": 3,
+      "initial_unit_end": 4,
+      "page_stream_range": [
+        92,
+        93
+      ],
+      "before": "執",
+      "after": "孰",
+      "comparison_id": "tcmp-f011-R-016",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "就安之舉前字左部可見亨形而非幸，右丸形相同，採孰；保留原有點號碼列。",
+      "result_unit_start": 3,
+      "result_unit_end": 4
+    },
+    {
+      "id": "f011-R-op-003",
+      "page_id": "f011-R",
+      "unit_id": "f011-R-u007",
+      "initial_unit_start": 14,
+      "initial_unit_end": 15,
+      "page_stream_range": [
+        147,
+        148
+      ],
+      "before": "何",
+      "after": "向",
+      "comparison_id": "tcmp-f011-R-025",
+      "source_sha256": "056ea400f97cd64459f01e4d9a095632b38f1ca13f7c37da45a04d1688812071",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "天將曉前字外冂內口，未見亻可的何形，採向；不連帶加點。",
+      "result_unit_start": 14,
+      "result_unit_end": 15
+    },
+    {
+      "id": "f012-L-op-001",
+      "page_id": "f012-L",
+      "unit_id": "f012-L-u007",
+      "initial_unit_start": 15,
+      "initial_unit_end": 16,
+      "page_stream_range": [
+        167,
+        168
+      ],
+      "before": "食",
+      "after": "貪",
+      "comparison_id": "tcmp-f012-L-009",
+      "source_sha256": "6343c160384c903bada12ca69ae738d99fadee4f821179cf5e83fafe53ba0112",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "原字頂部今、下貝形，與食的良形不同，採貪。",
+      "result_unit_start": 15,
+      "result_unit_end": 16
+    },
+    {
+      "id": "f012-L-op-002",
+      "page_id": "f012-L",
+      "unit_id": "f012-L-u008",
+      "initial_unit_start": 18,
+      "initial_unit_end": 19,
+      "page_stream_range": [
+        195,
+        196
+      ],
+      "before": "甚",
+      "after": "其",
+      "comparison_id": "tcmp-f012-L-011",
+      "source_sha256": "6343c160384c903bada12ca69ae738d99fadee4f821179cf5e83fafe53ba0112",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "最大前字上部横格、下分八腳，沒有甚的匹形收筆，採其。",
+      "result_unit_start": 18,
+      "result_unit_end": 19
+    },
+    {
+      "id": "f012-L-op-003",
+      "page_id": "f012-L",
+      "unit_id": "f012-L-u009",
+      "initial_unit_start": 17,
+      "initial_unit_end": 37,
+      "page_stream_range": [
+        219,
+        239
+      ],
+      "before": "⟦g2044-f012L-eating⟧",
+      "after": "鷹",
+      "comparison_id": "tcmp-f012-L-012",
+      "source_sha256": "6343c160384c903bada12ca69ae738d99fadee4f821179cf5e83fafe53ba0112",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "口前密字見广內亻隹、下鳥四點，支持鷹；原參照歷史保留，不由成語猜字。",
+      "result_unit_start": 17,
+      "result_unit_end": 18
+    },
+    {
+      "id": "f012-L-op-004",
+      "page_id": "f012-L",
+      "unit_id": "f012-L-u009",
+      "initial_unit_start": 41,
+      "initial_unit_end": 42,
+      "page_stream_range": [
+        243,
+        244
+      ],
+      "before": "曾",
+      "after": "會",
+      "comparison_id": "tcmp-f012-L-013",
+      "source_sha256": "6343c160384c903bada12ca69ae738d99fadee4f821179cf5e83fafe53ba0112",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "不知足前字頂部人覆横、中下日形，非曾的上丷與中田，採會。",
+      "result_unit_start": 22,
+      "result_unit_end": 23
+    },
+    {
+      "id": "f012-R-op-001",
+      "page_id": "f012-R",
+      "unit_id": "f012-R-u005",
+      "initial_unit_start": 15,
+      "initial_unit_end": 16,
+      "page_stream_range": [
+        113,
+        114
+      ],
+      "before": "衣",
+      "after": "夾",
+      "comparison_id": "tcmp-f012-R-012",
+      "source_sha256": "6343c160384c903bada12ca69ae738d99fadee4f821179cf5e83fafe53ba0112",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "單後字見大形中夾兩人與下分撇捺，未見衣字亠部，採夾。",
+      "result_unit_start": 15,
+      "result_unit_end": 16
+    },
+    {
+      "id": "f012-R-op-002",
+      "page_id": "f012-R",
+      "unit_id": "f012-R-u005",
+      "initial_unit_start": 26,
+      "initial_unit_end": 27,
+      "page_stream_range": [
+        124,
+        125
+      ],
+      "before": "使",
+      "after": "便",
+      "comparison_id": "tcmp-f012-R-013",
+      "source_sha256": "6343c160384c903bada12ca69ae738d99fadee4f821179cf5e83fafe53ba0112",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "血前字右部更的框與交叉下腳可見，不是使的吏部，採便；不連帶加點號。",
+      "result_unit_start": 26,
+      "result_unit_end": 27
+    },
+    {
+      "id": "f013-R-op-001",
+      "page_id": "f013-R",
+      "unit_id": "f013-R-u001",
+      "initial_unit_start": 3,
+      "initial_unit_end": 4,
+      "page_stream_range": [
+        3,
+        4
+      ],
+      "before": "寢",
+      "after": "饔",
+      "comparison_id": "tcmp-f013-R-001",
+      "source_sha256": "95b9d9b67d8cc0f56059c7100654bce1e5a9c43b001576e2726ed9ba8df3c157",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "首欄則後第一密字上雍下食，採饔；後一食旁字與第二稿gaiji仍未唯一核定，保留餐暫讀而不整段照第二稿替換。",
+      "result_unit_start": 3,
+      "result_unit_end": 4
+    },
+    {
+      "id": "f013-R-op-002",
+      "page_id": "f013-R",
+      "unit_id": "f013-R-u003",
+      "initial_unit_start": 18,
+      "initial_unit_end": 19,
+      "page_stream_range": [
+        69,
+        70
+      ],
+      "before": "營",
+      "after": "管",
+      "comparison_id": "tcmp-f013-R-004",
+      "source_sha256": "95b9d9b67d8cc0f56059c7100654bce1e5a9c43b001576e2726ed9ba8df3c157",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "另看原像素中欄，經下字上竹部、下官形，非營的火頂，採管。",
+      "result_unit_start": 18,
+      "result_unit_end": 19
+    },
+    {
+      "id": "f013-R-op-003",
+      "page_id": "f013-R",
+      "unit_id": "f013-R-u004",
+      "initial_unit_start": 15,
+      "initial_unit_end": 17,
+      "page_stream_range": [
+        91,
+        93
+      ],
+      "before": "繫養",
+      "after": "饕餮",
+      "comparison_id": "tcmp-f013-R-006",
+      "source_sha256": "95b9d9b67d8cc0f56059c7100654bce1e5a9c43b001576e2726ed9ba8df3c157",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "原像素細看此欄：前兩字仍見負的刀貝、咎的夂人／口，沒有貪的今部，保留負咎；後兩密字食部與號／殄上構可見，採饕餮，非初錄繫養，也不採第二稿貪加gaiji整段。",
+      "result_unit_start": 15,
+      "result_unit_end": 17
+    },
+    {
+      "id": "f014-L-op-001",
+      "page_id": "f014-L",
+      "unit_id": "f014-L-u001",
+      "initial_unit_start": 7,
+      "initial_unit_end": 8,
+      "page_stream_range": [
+        7,
+        8
+      ],
+      "before": "哉",
+      "after": "岐",
+      "comparison_id": "tcmp-f014-L-003",
+      "source_sha256": "99a0c49f4204ce62be6e9bb291d92c4be1bb0894f74992579a97d6c41e4d0b3b",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "味後字左側山形、右支形可見，未見哉的上戈下口結構，採岐。",
+      "result_unit_start": 7,
+      "result_unit_end": 8
+    },
+    {
+      "id": "f014-L-op-002",
+      "page_id": "f014-L",
+      "unit_id": "f014-L-u008",
+      "initial_unit_start": 24,
+      "initial_unit_end": 25,
+      "page_stream_range": [
+        192,
+        193
+      ],
+      "before": "滯",
+      "after": "濾",
+      "comparison_id": "tcmp-f014-L-011",
+      "source_sha256": "99a0c49f4204ce62be6e9bb291d92c4be1bb0894f74992579a97d6c41e4d0b3b",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "本欄消其後字水旁右部虍下心，讀濾；第二稿將下一欄滓併入同hunk，僅將本單位滯改濾，不跨欄搬字。",
+      "result_unit_start": 24,
+      "result_unit_end": 25
+    },
+    {
+      "id": "f014-L-op-003",
+      "page_id": "f014-L",
+      "unit_id": "f014-L-u009",
+      "initial_unit_start": 0,
+      "initial_unit_end": 1,
+      "page_stream_range": [
+        194,
+        195
+      ],
+      "before": "淳",
+      "after": "滓",
+      "comparison_id": "tcmp-f014-L-012",
+      "source_sha256": "99a0c49f4204ce62be6e9bb291d92c4be1bb0894f74992579a97d6c41e4d0b3b",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "下一主欄頂字氵旁、宀辛形，讀滓而非淳的享形；它與前欄末濾接續，但保留原unit位置，不按第二稿獨立刪字。",
+      "result_unit_start": 0,
+      "result_unit_end": 1
+    },
+    {
+      "id": "f014-R-op-001",
+      "page_id": "f014-R",
+      "unit_id": "f014-R-u001",
+      "initial_unit_start": 23,
+      "initial_unit_end": 24,
+      "page_stream_range": [
+        23,
+        24
+      ],
+      "before": "乏",
+      "after": "欠",
+      "comparison_id": "tcmp-f014-R-001",
+      "source_sha256": "99a0c49f4204ce62be6e9bb291d92c4be1bb0894f74992579a97d6c41e4d0b3b",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "首欄兒後字有欠的上勹與下人兩腳，不是乏的之形，採欠。",
+      "result_unit_start": 23,
+      "result_unit_end": 24
+    },
+    {
+      "id": "f015-L-op-001",
+      "page_id": "f015-L",
+      "unit_id": "f015-L-u006",
+      "initial_unit_start": 11,
+      "initial_unit_end": 12,
+      "page_stream_range": [
+        136,
+        137
+      ],
+      "before": "之",
+      "after": "乏",
+      "comparison_id": "tcmp-f015-L-007",
+      "source_sha256": "c744fe8f6df6b359cebf60e5e706791a73a88c021b410606e689b4b86858ce14",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "身後字頂部有短撇、下之形，是乏的三段筆勢，非單獨之，採乏。",
+      "result_unit_start": 11,
+      "result_unit_end": 12
+    },
+    {
+      "id": "f016-L-op-001",
+      "page_id": "f016-L",
+      "unit_id": "f016-L-u002",
+      "initial_unit_start": 5,
+      "initial_unit_end": 6,
+      "page_stream_range": [
+        28,
+        29
+      ],
+      "before": "貨",
+      "after": "資",
+      "comparison_id": "tcmp-f016-L-002",
+      "source_sha256": "df829c45fe2f42c283ca2ea395afc730c6b301f542cec14ad1c71f3caee58f87",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "備後字上次下貝形，不是貨的化貝，採資。",
+      "result_unit_start": 5,
+      "result_unit_end": 6
+    },
+    {
+      "id": "f016-L-op-002",
+      "page_id": "f016-L",
+      "unit_id": "f016-L-u002",
+      "initial_unit_start": 7,
+      "initial_unit_end": 8,
+      "page_stream_range": [
+        30,
+        31
+      ],
+      "before": "契",
+      "after": "製",
+      "comparison_id": "tcmp-f016-L-003",
+      "source_sha256": "df829c45fe2f42c283ca2ea395afc730c6b301f542cec14ad1c71f3caee58f87",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "做後字上制旁有刀、下衣形，非契的大底，採製。",
+      "result_unit_start": 7,
+      "result_unit_end": 8
+    },
+    {
+      "id": "f016-R-op-001",
+      "page_id": "f016-R",
+      "unit_id": "f016-R-u005",
+      "initial_unit_start": 18,
+      "initial_unit_end": 19,
+      "page_stream_range": [
+        122,
+        123
+      ],
+      "before": "嗽",
+      "after": "瘵",
+      "comparison_id": "tcmp-f016-R-007",
+      "source_sha256": "df829c45fe2f42c283ca2ea395afc730c6b301f542cec14ad1c71f3caee58f87",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "咳後字外有疒框與左側短點、內部祭形，不是口旁欶，採瘵；不從現代病名判字。",
+      "result_unit_start": 18,
+      "result_unit_end": 19
+    },
+    {
+      "id": "f016-R-op-002",
+      "page_id": "f016-R",
+      "unit_id": "f016-R-u008",
+      "initial_unit_start": 4,
+      "initial_unit_end": 5,
+      "page_stream_range": [
+        162,
+        163
+      ],
+      "before": "革",
+      "after": "事",
+      "comparison_id": "tcmp-f016-R-009",
+      "source_sha256": "df829c45fe2f42c283ca2ea395afc730c6b301f542cec14ad1c71f3caee58f87",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "潔修前字上横、中口及下聿竪鈎清楚，不是革的廿與下十，採事。",
+      "result_unit_start": 4,
+      "result_unit_end": 5
+    },
+    {
+      "id": "f017-L-op-001",
+      "page_id": "f017-L",
+      "unit_id": "f017-L-u006",
+      "initial_unit_start": 19,
+      "initial_unit_end": 40,
+      "page_stream_range": [
+        134,
+        155
+      ],
+      "before": "⟦g2044-f017L-chronic⟧",
+      "after": "痼",
+      "comparison_id": "tcmp-f017-L-007",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "此字疒框內為固的囗古組合可見，採痼；未依病名或語義補字。",
+      "result_unit_start": 19,
+      "result_unit_end": 20
+    },
+    {
+      "id": "f017-R-op-001",
+      "page_id": "f017-R",
+      "unit_id": "f017-R-u001",
+      "initial_unit_start": 20,
+      "initial_unit_end": 21,
+      "page_stream_range": [
+        20,
+        21
+      ],
+      "before": "痘",
+      "after": "痧",
+      "comparison_id": "tcmp-f017-R-001",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "此處疒框內可見三水點與少的細撇，非痘的豆形；已逐一比對本面五個出現位置，僅改本hunk為痧，不作全書病名替換。",
+      "result_unit_start": 20,
+      "result_unit_end": 21
+    },
+    {
+      "id": "f017-R-op-002",
+      "page_id": "f017-R",
+      "unit_id": "f017-R-u001",
+      "initial_unit_start": 23,
+      "initial_unit_end": 24,
+      "page_stream_range": [
+        23,
+        24
+      ],
+      "before": "痘",
+      "after": "痧",
+      "comparison_id": "tcmp-f017-R-002",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "此處疒框內可見三水點與少的細撇，非痘的豆形；已逐一比對本面五個出現位置，僅改本hunk為痧，不作全書病名替換。",
+      "result_unit_start": 23,
+      "result_unit_end": 24
+    },
+    {
+      "id": "f017-R-op-003",
+      "page_id": "f017-R",
+      "unit_id": "f017-R-u005",
+      "initial_unit_start": 1,
+      "initial_unit_end": 2,
+      "page_stream_range": [
+        103,
+        104
+      ],
+      "before": "痘",
+      "after": "痧",
+      "comparison_id": "tcmp-f017-R-007",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "此處疒框內可見三水點與少的細撇，非痘的豆形；已逐一比對本面五個出現位置，僅改本hunk為痧，不作全書病名替換。",
+      "result_unit_start": 1,
+      "result_unit_end": 2
+    },
+    {
+      "id": "f017-R-op-004",
+      "page_id": "f017-R",
+      "unit_id": "f017-R-u005",
+      "initial_unit_start": 4,
+      "initial_unit_end": 5,
+      "page_stream_range": [
+        106,
+        107
+      ],
+      "before": "痘",
+      "after": "痧",
+      "comparison_id": "tcmp-f017-R-008",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "此處疒框內可見三水點與少的細撇，非痘的豆形；已逐一比對本面五個出現位置，僅改本hunk為痧，不作全書病名替換。",
+      "result_unit_start": 4,
+      "result_unit_end": 5
+    },
+    {
+      "id": "f017-R-op-005",
+      "page_id": "f017-R",
+      "unit_id": "f017-R-u005",
+      "initial_unit_start": 7,
+      "initial_unit_end": 8,
+      "page_stream_range": [
+        109,
+        110
+      ],
+      "before": "痘",
+      "after": "痧",
+      "comparison_id": "tcmp-f017-R-009",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "此處疒框內可見三水點與少的細撇，非痘的豆形；已逐一比對本面五個出現位置，僅改本hunk為痧，不作全書病名替換。",
+      "result_unit_start": 7,
+      "result_unit_end": 8
+    },
+    {
+      "id": "f017-R-op-006",
+      "page_id": "f017-R",
+      "unit_id": "f017-R-u007",
+      "initial_unit_start": 2,
+      "initial_unit_end": 22,
+      "page_stream_range": [
+        155,
+        175
+      ],
+      "before": "⟦g2044-f017R-follow⟧",
+      "after": "傚",
+      "comparison_id": "tcmp-f017-R-010",
+      "source_sha256": "3eb71a9e2cc066a30347f4e4c1958b2216e424e5c35b09bb4064b221a7a663bd",
+      "source_roi_source_px": [
+        1490,
+        30,
+        2800,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "宜後字左亻、右交與攵的組合可見，採傚；未將它正字化效，也不據宜遵／效法語意猜字。",
+      "result_unit_start": 2,
+      "result_unit_end": 3
+    },
+    {
+      "id": "f018-L-op-001",
+      "page_id": "f018-L",
+      "unit_id": "f018-L-u001",
+      "initial_unit_start": 0,
+      "initial_unit_end": 1,
+      "page_stream_range": [
+        0,
+        1
+      ],
+      "before": "淨",
+      "after": "滓",
+      "comparison_id": "tcmp-f018-L-001",
+      "source_sha256": "1a9d523c218d981048f4c148933cc14b884e1735e659268e2b8ad2f91f9c9ecb",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "右首字左三水，右上宀與下辛的宰形可見，非淨的爭形，採滓；不以眼疾語意決定。",
+      "result_unit_start": 0,
+      "result_unit_end": 1
+    },
+    {
+      "id": "f018-L-op-002",
+      "page_id": "f018-L",
+      "unit_id": "f018-L-u008",
+      "initial_unit_start": 13,
+      "initial_unit_end": 14,
+      "page_stream_range": [
+        173,
+        174
+      ],
+      "before": "裸",
+      "after": "操",
+      "comparison_id": "tcmp-f018-L-012",
+      "source_sha256": "1a9d523c218d981048f4c148933cc14b884e1735e659268e2b8ad2f91f9c9ecb",
+      "source_roi_source_px": [
+        180,
+        30,
+        1530,
+        1990
+      ],
+      "roi_precision": "physical-face region; exact glyph bbox not asserted",
+      "reason": "作前字左為扌，右為三口及木的喿形；非衣旁果形，採操。",
+      "result_unit_start": 13,
+      "result_unit_end": 14
+    }
+  ],
+  "notes": [
+    "Source ROI is the fixed physical-face region, not an asserted precise glyph box.",
+    "f020-R remains primary-body blank; faint mirrored/showthrough text not added to authorial body.",
+    "Initial364unit IDs/order and v0.1.0 preserved; no global Unicode normalization.",
+    "Independent AI source reading followed by nonblind AI source queries; no human double collation, expert/peer review or measured accuracy."
+  ]
+}

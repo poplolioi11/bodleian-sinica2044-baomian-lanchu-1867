@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Sinica2044 fixed initial transcription book schema1.0.0",
+  "title": "Sinica2044 fixed source-reviewed transcription book schema1.0.0",
   "type": "object",
   "required": [
     "dataset_id",

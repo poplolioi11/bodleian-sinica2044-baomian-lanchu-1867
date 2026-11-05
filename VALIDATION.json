@@ -18,13 +18,13 @@
   "counts": {
     "images": 21,
     "units": 364,
-    "unicode_code_points": 8230,
-    "uncertainties": 153
+    "unicode_code_points": 8031,
+    "uncertainties": 570
   },
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "de7ffd1311f6943493418493e3a2aed39470b5c7c5565a4bb4b37a29c819a8bb",
+      "sha256": "fe63d2af71095b76bbf9e8ac17011ef27f1db5b6f14e3daa3b505031bb9a52d7",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -39,18 +39,21 @@
     }
   },
   "input_sha256": {
-    "book": "b43be255c126c67a9527cd78812bf1a558cd45b5045d97f48a478b5485cf0dd1",
+    "book": "c7a65343b41e2141316970c22b396911eab5cc00bc4a3ab2a3bf22b9dd2f3cb1",
     "sources": "68ae5af1c1fdfc9e0f55d43b6f77aedc088e1d94a8d423816ad771c7df1003e2"
   },
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-independent-reading-and-nonblind-source-review-completed-with-unresolved",
+    "independent_reading_applied": true,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
     "peer_review": "not-performed",
     "accuracy_measured": false,
     "processing_scope_complete": true,
-    "source_readings_remain_provisional": true
+    "source_readings_remain_provisional": true,
+    "source_query_faces": 36,
+    "independent_reading_faces": 36,
+    "all_comparison_records_source_queried": true
   },
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",
