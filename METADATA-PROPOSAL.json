@@ -1,19 +1,23 @@
 {
-  "status": "v0.2.0-prepared-for-release; v0.1.0-published",
-  "type": "dataset",
-  "title": "保免攔除（1867；Bodleian Sinica 2044） / Bao mian lan chu [Preventing and averting illness]: Transcription dataset",
-  "version": "0.2.0",
-  "publication_date_proposal": "2026-11-05",
+  "status": "unreleased-local-review-candidate",
+  "version": "0.2.1",
+  "title": "保免攔除(1867;Bodleian Sinica 2044) / Bao mian lan chu [Preventing and averting illness]: Transcription dataset",
   "creators": [
     {
-      "family_name": "Chu",
-      "given_name": "Chen-Yu",
-      "orcid": "https://orcid.org/0009-0003-9738-6914"
+      "person_or_org": {
+        "type": "personal",
+        "name": "Chu, Chen-Yu",
+        "given_name": "Chen-Yu",
+        "family_name": "Chu",
+        "identifiers": [
+          {
+            "identifier": "0009-0003-9738-6914",
+            "scheme": "orcid"
+          }
+        ]
+      }
     }
   ],
-  "description": "《保免攔除》（Bao mian lan chu；1867）是 Frederick Porter Smith 的晚清漢語醫學與日常保健小冊，牛津 Bodleian Libraries 藏本 Sinica 2044 著錄刊地為漢皋（Hankow），題頁署寶善居舍藏板。書中討論居室、飲食、精神與身體活動、潔身，以及內科、外科、眼科、婦人科與保嬰，並將健康論述與基督教語彙相連，可供醫學翻譯、傳教士出版與晚清生活史研究。本資料集依21幅數位影像，以TXT、JSON及TEI XML提供36個指定物理面的轉錄、疑讀及原圖對應。本版在AI初錄後完成全36面獨立AI讀圖、全量比較與非盲原圖質詢修訂；未經人類全文雙校或專家審定，未解讀字及殘缺邊字仍保留標記。\n\nBao mian lan chu [Preventing and averting illness] is an 1867 Chinese medical and everyday-health booklet by Frederick Porter Smith. Bodleian Libraries, Sinica 2044, is catalogued as published in Hankow (漢皋); its title page names Baoshan jushe (寶善居舍) as block holder. It discusses housing, diet, mental and physical activity, cleanliness, internal and external medicine, eye conditions, women’s health and infant care, linking health discourse with Christian vocabulary. It supports historical work on medical translation, missionary publishing and everyday life in late-Qing China. Based on 21 digital captures, TXT, JSON and TEI XML provide the transcription of 36 designated physical faces, uncertainties and source-image mappings. Following the AI initial transcription, this version applies a separate AI source-only reading of all 36 faces, full comparison and nonblind source-image adjudication. Full human double collation and expert review have not been performed; unresolved readings and clipped marginal material remain marked.",
-  "notes": "Source object: https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json Official fixed catalogue: https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202044.xml Formats: TXT, JSON, TEI XML. Scope:21 captures;36 physical faces (2 title,2 preface,31 textual body/appendix,1 blank framed body);4 binding faces excluded. Historical text and faithful mechanical transcription acquire no new exclusive restriction. Copyrightable original documentation/arrangement: CC BY4.0. Excluded Bodleian source images separately carry CC BY-NC4.0. English bracketed title is an editorial translation.",
-  "methods": "A separately sealed source-only AI reader processed all 36 designated physical faces before literal comparison. A nonblind AI adjudicator queried all 504 token-aware comparison records against the same source images and checked agreed/high-risk details on every face; 64 specified literal operations are applied. Point/slant marks, exact variant encoding, clipped margins and other unresolved material remain explicit. Original 364 unit IDs/order and v0.1.0 are preserved without Unicode normalization or global substitutions. Independent reading, nonblind adjudication and limited controller spotchecks are distinct roles. Full human double collation, expert review, peer review and accuracy measurement have not been performed. Actual native-model identifiers, reasoning settings and counters are unknown, not zero. Engineering/schema/hash checks do not establish reading accuracy. Source images/crops, dedicated programs, prompts and full private working records are excluded; no complete image-to-text reproduction method is supplied. Historical-document research only; no modern clinical validation or biological research claim.",
   "keywords": [
     "保免攔除",
     "Bao mian lan chu",
@@ -36,62 +40,127 @@
     "Sinica 2044"
   ],
   "languages": [
-    "lzh",
-    "eng"
+    {
+      "id": "lzh",
+      "title": {
+        "en": "Literary Chinese"
+      }
+    },
+    {
+      "id": "eng",
+      "title": {
+        "en": "English"
+      }
+    }
   ],
-  "source_publication": {
-    "place_catalogue": "漢皋 [Hankow]",
-    "year_catalogue": "1867",
-    "title_imprint": "同治六年夏新鐫；漢皋寶善居舍藏板"
+  "description": "<p>《保免攔除》（Bao mian lan chu；1867）是 Frederick Porter Smith 的晚清漢語醫學與日常保健小冊，Bodleian Sinica 2044 著錄刊地為漢皋（Hankow），題頁署寶善居舍藏板。書中討論居室、飲食、精神與身體活動、潔身及多科病症，並連結基督教語彙，可供醫學翻譯、傳教士出版與晚清生活史研究。本資料集依21幅影像提供36個指定物理面的 TXT、JSON、TEI XML、疑讀與來源對應。文字為 AI 暫定轉錄並經局部原圖修訂，未經人類全文雙校或專家審定。</p><p>Bao mian lan chu [Preventing and averting illness] is an 1867 Chinese medical and everyday-health booklet by Frederick Porter Smith. Bodleian Sinica 2044 is catalogued as published in Hankow; the title page names Baoshan jushe as block holder. Its discussions of housing, diet, mental and physical activity, cleanliness and medical conditions, linked with Christian vocabulary, support research on medical translation, missionary publishing and late-Qing everyday life. Based on 21 images, the dataset provides TXT, JSON and TEI XML for 36 designated physical faces, with uncertainties and source mappings. The provisional AI transcription includes selected source-image corrections; full human double collation and expert review have not been performed.</p>",
+  "additional_descriptions": [
+    {
+      "type": {
+        "id": "notes"
+      },
+      "description": "Source: https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json Formats: TXT, JSON, TEI XML. Scope: 21 fixed images / 36 designated physical faces. Literary Chinese text with English documentation. Historical text and faithful mechanical transcription receive no new exclusive restriction; copyrightable original documentation and arrangement are CC BY 4.0. Source scans/crops are excluded and retain the separate Bodleian terms in RIGHTS.md and LICENSE.md, including CC BY-NC 4.0 where recorded. Bracketed English titles are editorial translations. Prior v0.2.0 DOI: 10.5281/zenodo.23975561; this proposed v0.2.1 DOI is unknown and omitted."
+    },
+    {
+      "type": {
+        "id": "methods"
+      },
+      "description": "# Methods / 處理方法\n\nv0.2.1 applies a targeted, nonblind review of 4 selected reader questions against the same fixed Bodleian images. Proposed readings and their rationale were already known before image review. Full parent frames were viewed together with original-pixel details where needed. 1 individually specified literal operations (1 codepoints) are adopted; retained and unresolved proposals are listed with source references in TARGETED-CORRECTIONS.json. This round is not a fresh whole-book independent collation.\n\n\n\nThe previous v0.2.0 whole-book AI observation, comparison and source-adjudication history remains preserved in HISTORICAL-METHODS-v0.2.0.md and the existing JSON history. Its coverage and failed or incomplete activities are not upgraded by this selected review. Historical count statements describe that version; current counts are 364 units, 8031 literal Unicode codepoints and 570 active uncertainty declarations. Codepoint counts include reference strings where present and are not source character counts or error rates.\n\nNo Unicode normalization, global variant or punctuation replacement, reading-order change, gaiji-ID change, or modernization is applied. Fixed unit strings drive the JSON, TXT and TEI XML exports without new model rewriting. Unknown glyph extent remains unknown; original uncertainties and superseded readings remain in version history. The two current gaiji reference notations, where present, remain unchanged.\n\nFull human double collation, expert review, peer review and accuracy measurement have not been performed. Exact model identifiers, reasoning settings and complete token counters for the native AI review were not reported and remain unknown. Format, schema, hash and round-trip checks establish engineering properties only. The minimal TEI P5 projection is not a complete scholarly apparatus; no custom ODD or Schematron is claimed.\n\nSource scans and crops, dedicated programs, prompts and complete private working records are excluded. The complete image-to-text production method is not publicly reproducible from this package. See RIGHTS.md and LICENSE.md for the distinct historical-text, original-documentation and Bodleian-image terms. This is historical-document transcription; no biological research or modern clinical instructions are provided.\n"
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0",
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      },
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "props": {
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "scheme": "spdx"
+      }
+    }
+  ],
+  "rights_scope": "Machine-readable CC BY 4.0 is for copyrightable original documentation and arrangement; historical text and source-image rights remain separately described in RIGHTS.md/LICENSE.md.",
+  "source": {
+    "object_url": "https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/",
+    "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json",
+    "shelfmark": "Bodleian Libraries, Sinica 2044",
+    "edition": "Official catalogue:1867,漢皋 [Hankow],woodblock. Title:同治六年夏新鐫；漢皋寶善居舍藏板. Actual impression date, later reprint status and scan date unknown.",
+    "author_attribution": "Smith, Frederick Porter (official catalogue). Exact Chinese personal-name glyphs in the preface remain unresolved where indicated."
   },
   "related_identifiers": [
     {
       "identifier": "https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/",
-      "relation": "IsDerivedFrom",
-      "resource_role": "source-object"
+      "scheme": "url",
+      "relation_type": {
+        "id": "isderivedfrom",
+        "title": {
+          "de": "Wird abgeleitet von",
+          "en": "Is derived from"
+        }
+      }
     },
     {
       "identifier": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json",
-      "relation": "References",
-      "resource_role": "iiif-manifest"
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
     },
     {
       "identifier": "https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202044.xml",
-      "relation": "References",
-      "resource_role": "official-fixed-catalogue"
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
     },
     {
       "identifier": "https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867",
-      "relation": "IsSupplementTo",
-      "resource_role": "existing-repository"
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto",
+        "title": {
+          "de": "Ergänzt",
+          "en": "Is supplement to"
+        }
+      }
     },
     {
       "identifier": "https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0",
-      "relation": "IsIdenticalTo",
-      "resource_role": "v0.2.0-release-prepared-not-yet-published"
+      "scheme": "url",
+      "relation_type": {
+        "id": "isnewversionof"
+      }
     },
     {
       "identifier": "10.5281/zenodo.23972212",
-      "relation": "IsNewVersionOf",
-      "resource_role": "published-initial-version"
-    }
-  ],
-  "rights_layers": [
-    {
-      "scope": "historical text and faithful mechanical transcription",
-      "statement": "No new exclusive restriction"
+      "scheme": "doi",
+      "relation_type": {
+        "id": "references"
+      }
     },
     {
-      "scope": "copyrightable original documentation and arrangement",
-      "id": "cc-by-4.0"
-    },
-    {
-      "scope": "source images excluded from the package",
-      "id": "cc-by-nc-4.0"
+      "identifier": "10.5281/zenodo.23975561",
+      "scheme": "doi",
+      "relation_type": {
+        "id": "isnewversionof"
+      }
     }
   ],
-  "doi": null,
-  "concept_doi": "10.5281/zenodo.23972211",
+  "prior_version_doi": "10.5281/zenodo.23975561",
+  "repository": "https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867",
   "counts": {
     "canvases": 21,
     "target_physical_faces": 36,

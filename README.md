@@ -1,15 +1,19 @@
-# 保免攔除（1867；Bodleian Sinica 2044） / Bao mian lan chu [Preventing and averting illness]: Transcription dataset
+# 保免攔除(1867;Bodleian Sinica 2044) / Bao mian lan chu [Preventing and averting illness]: Transcription dataset
 
-《保免攔除》（Bao mian lan chu；1867）是 Frederick Porter Smith 的晚清漢語醫學與日常保健小冊，牛津 Bodleian Libraries 藏本 Sinica 2044 著錄刊地為漢皋（Hankow），題頁署寶善居舍藏板。書中討論居室、飲食、精神與身體活動、潔身，以及內科、外科、眼科、婦人科與保嬰，並將健康論述與基督教語彙相連，可供醫學翻譯、傳教士出版與晚清生活史研究。本資料集依21幅數位影像，以TXT、JSON及TEI XML提供36個指定物理面的轉錄、疑讀及原圖對應。本版在AI初錄後完成全36面獨立AI讀圖、全量比較與非盲原圖質詢修訂；未經人類全文雙校或專家審定，未解讀字及殘缺邊字仍保留標記。
+《保免攔除》（Bao mian lan chu；1867）是 Frederick Porter Smith 的晚清漢語醫學與日常保健小冊，Bodleian Sinica 2044 著錄刊地為漢皋（Hankow），題頁署寶善居舍藏板。書中討論居室、飲食、精神與身體活動、潔身及多科病症，並連結基督教語彙，可供醫學翻譯、傳教士出版與晚清生活史研究。本資料集依21幅影像提供36個指定物理面的 TXT、JSON、TEI XML、疑讀與來源對應。文字為 AI 暫定轉錄並經局部原圖修訂，未經人類全文雙校或專家審定。
 
-版本0.2.0。整理：曲宸宇／Chu, Chen-Yu（[ORCID](https://orcid.org/0009-0003-9738-6914)）；帳號poplolioi11。
+Bao mian lan chu [Preventing and averting illness] is an 1867 Chinese medical and everyday-health booklet by Frederick Porter Smith. Bodleian Sinica 2044 is catalogued as published in Hankow; the title page names Baoshan jushe as block holder. Its discussions of housing, diet, mental and physical activity, cleanliness and medical conditions, linked with Christian vocabulary, support research on medical translation, missionary publishing and late-Qing everyday life. Based on 21 images, the dataset provides TXT, JSON and TEI XML for 36 designated physical faces, with uncertainties and source mappings. The provisional AI transcription includes selected source-image corrections; full human double collation and expert review have not been performed.
 
-[原件](https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/) · [IIIF](https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json) · [固定館目](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202044.xml)
+v0.2.1 固定發布製備包；2026-11-12。整理：曲宸宇／Chu, Chen-Yu（[ORCID](https://orcid.org/0009-0003-9738-6914)；帳號 poplolioi11）。本版 DOI：[10.5281/zenodo.24157194](https://doi.org/10.5281/zenodo.24157194)。製備時 DOI 狀態為 reserved（已預留，尚未確認正式發布）；發布狀態須由公開端讀回確認。
 
-364 stable units; 8031 literal Unicode codepoints including reference strings; 570 active uncertainty declarations; 50 active gaiji registry references. These are not source Chinese-character counts or error rates.
+21 幅固定影像，36 個指定物理面，364 個穩定單位，8031 個 Unicode 碼點，570 筆現行疑讀。這些是資料量與標記數量，不是原書漢字數或準確率。
 
-先讀book.txt；疑讀見uncertainties.json；原圖對應及gaiji見source-pages.json、source-regions.json。REVISION-CHANGES.json列本版採用的逐處改動。引用請核原件。
+[TXT](book.txt) · [JSON](book.json) · [TEI XML](book.tei.xml) · [來源](source-pages.json) · [疑讀](uncertainties.json) · [本次訂正](TARGETED-CORRECTIONS.md) · [Methods](METHODS.md) · [文字政策](TRANSCRIPTION-POLICY.md) · [權利](RIGHTS.md) · [引用](CITATION.cff) · [Gaiji 讀者說明](GAIJI-READING-GUIDE.md)
 
-[修訂版 DOI](https://doi.org/10.5281/zenodo.23975561) · [初錄版 DOI](https://doi.org/10.5281/zenodo.23972212) · [所有版本](https://doi.org/10.5281/zenodo.23972211) · [GitHub v0.2.0](https://github.com/poplolioi11/bodleian-sinica2044-baomian-lanchu-1867/releases/tag/v0.2.0) · [醫學史社群](https://zenodo.org/communities/late-qing-medical-history/)。
+[官方原件](https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/) · [IIIF](https://iiif.bodleian.ox.ac.uk/iiif/manifest/7a174530-82e6-4c23-9c95-1faa233b7f6c.json) · [前版 v0.2.0](https://doi.org/10.5281/zenodo.23975561)（前版 DOI，非本版 DOI）。
 
-本主分支在固定版發布後補入 DOI 與引用連結。SHA256SUMS 用於驗證固定 release 內容；封存包保留製備時的文件，現行發布狀態以本頁與 DOI 頁為準。
+來源影像與裁片未收入本包；歷史原文、自有說明及館方影像條款分別適用，詳 RIGHTS.md／LICENSE.md。引用原文請回官方影像核對。
+
+Keywords: 保免攔除; Bao mian lan chu; Frederick Porter Smith; 晚清醫學史; late-Qing medical history; 漢皋; Hankow; 日常保健史; history of everyday health; 傳教士出版; missionary publishing; 醫學翻譯; medical translation; 基督教與醫學; Christianity and medicine; 保嬰史; history of infant care; Bodleian Libraries; Sinica 2044.
+
+[METADATA-PROPOSAL.json](METADATA-PROPOSAL.json) 是前版提案／製備快照；現行題名、版號與引用以本版 CITATION.cff、README 及正式平台紀錄為準。[HISTORICAL-METHODS-v0.2.0.md](HISTORICAL-METHODS-v0.2.0.md) 保留前版方法說明。

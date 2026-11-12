@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica2044",
-  "version": "0.2.0",
-  "title": "保免攔除（1867；Bodleian Sinica 2044） / Bao mian lan chu [Preventing and averting illness]: Transcription dataset",
+  "version": "0.2.1",
+  "title": "保免攔除(1867;Bodleian Sinica 2044) / Bao mian lan chu [Preventing and averting illness]: Transcription dataset",
   "quality": {
     "status": "AI-independent-reading-and-nonblind-source-review-completed-with-unresolved",
     "independent_reading_applied": true,
@@ -13,7 +13,9 @@
     "source_readings_remain_provisional": true,
     "source_query_faces": 36,
     "independent_reading_faces": 36,
-    "all_comparison_records_source_queried": true
+    "all_comparison_records_source_queried": true,
+    "targeted_reader_source_review": "nonblind selected reader questions and declared Sinica1634 preface reread; unresolved preserved; no new whole-book independent collation",
+    "targeted_review_status": "selected-nonblind-source-review-with-unresolved-retained"
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/7a174530-82e6-4c23-9c95-1faa233b7f6c/",
@@ -1438,6 +1440,21 @@
       "token_aware_comparison_records": 504,
       "accepted_literal_operations": 64,
       "note": "Every declared difference and per-face agreed/high-risk observations queried against source images. Independent reading and nonblind adjudication are distinct AI roles; unresolved readings retained. No human or expert review or measured accuracy."
+    },
+    "targeted_corrections_20261112": {
+      "base_version": "0.2.0",
+      "core_reader_questions": 4,
+      "extra_preface_reread": false,
+      "literal_operations": 1,
+      "blinded": false,
+      "human_double_collation": "not-performed",
+      "normalization": "none",
+      "limits": "No human double collation, expert review or measured accuracy. Detailed programs, prompts, crops and complete private working records are excluded.",
+      "resolved_uncertainty_history": [],
+      "version": "0.2.1",
+      "literal_codepoints_replaced": 1,
+      "public_decision_table": "TARGETED-CORRECTIONS.json",
+      "summary": "Selected reader questions were checked against the fixed source images with candidates already known. This round is not a new full-book independent collation. Previous whole-book AI reading history remains separately preserved."
     }
   },
   "position_convention": "pages[] follows21 official captures fNNN. Units retain physical-face fNNN-R/L; original folios are separately provisional. Uncertainty start/end use0-based half-open Unicode-codepoint spans in exported strings; token length is not source glyph count. Recorded bboxes use fixed3000x2250 source pixels, otherwise null.",
@@ -1869,7 +1886,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "L",
-          "text": "我歐人人必變顏作色、不能自禁、可知我身有所感受、病",
+          "text": "我毆人人必變顏作色、不能自禁、可知我身有所感受、病",
           "bbox": null
         },
         {

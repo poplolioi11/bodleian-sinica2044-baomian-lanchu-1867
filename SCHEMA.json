@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Sinica2044 fixed source-reviewed transcription book schema1.0.0",
+  "title": "Bodleian Sinica 2044 fixed transcription schema; v0.2.1 selected source corrections",
   "type": "object",
   "required": [
     "dataset_id",

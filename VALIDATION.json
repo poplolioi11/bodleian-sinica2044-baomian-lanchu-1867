@@ -24,7 +24,7 @@
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "fe63d2af71095b76bbf9e8ac17011ef27f1db5b6f14e3daa3b505031bb9a52d7",
+      "sha256": "d5cfb142c876679db2e18b43b9793c160b2f9ad8d1cca652779e25b764a112b4",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -39,7 +39,7 @@
     }
   },
   "input_sha256": {
-    "book": "c7a65343b41e2141316970c22b396911eab5cc00bc4a3ab2a3bf22b9dd2f3cb1",
+    "book": "38822393436993b5d7f889ae8f85ef747976a5d58a3e04091bf3f55f342c520a",
     "sources": "68ae5af1c1fdfc9e0f55d43b6f77aedc088e1d94a8d423816ad771c7df1003e2"
   },
   "quality": {
@@ -53,7 +53,9 @@
     "source_readings_remain_provisional": true,
     "source_query_faces": 36,
     "independent_reading_faces": 36,
-    "all_comparison_records_source_queried": true
+    "all_comparison_records_source_queried": true,
+    "targeted_reader_source_review": "nonblind selected reader questions and declared Sinica1634 preface reread; unresolved preserved; no new whole-book independent collation",
+    "targeted_review_status": "selected-nonblind-source-review-with-unresolved-retained"
   },
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",

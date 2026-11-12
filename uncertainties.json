@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica2044",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
